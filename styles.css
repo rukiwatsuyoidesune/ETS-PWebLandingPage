@@ -39,6 +39,30 @@ nav ul li a {
     color: white;
     text-decoration: none;
 }
+.hero {
+    background: url('assets/img/elektronik.jpeg') no-repeat center center/cover;
+    height: 500px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    color: #fff;
+    position: relative;
+    margin-top: 20px;
+}
+.hero h1 {
+    position: relative;
+    font-size: 48px;
+    z-index: 1;
+}
+.vignette {
+    position: absolute;
+    top: 0;
+    left: 0;
+    right: 0;
+    bottom: 0;
+    background: rgba(0, 0, 0, 0.6);
+    border-radius: 10px;
+}
 .main {
     padding: 10px;
     text-align: center;
@@ -69,9 +93,15 @@ nav ul li a {
     margin: 15px 0;
     font-weight: bold;
 }
+.product h3 {
+    font-size: 20px;
+    color: #005099;
+    font-weight: 750;
+}
 .product p {
     font-size: 16px;
     margin-bottom: 15px;
+    color: #4CAF50;
 }
 .product button {
     background-color: #ffde21;
@@ -80,10 +110,35 @@ nav ul li a {
     border: none;
     border-radius: 5px;
     font-size: 16px;
+    font-weight: 800;
     cursor: pointer;
 }
 .product button:hover {
     background-color: #b09918;
+}
+
+.daftar-member {
+    text-align: center;
+    margin-bottom: 20px;
+    margin-top: 50px;
+}
+.daftar-member p {
+    font-size: 20px;
+    font-weight: 750;
+}
+
+.daftar-member button {
+    padding: 10px 20px;
+    background-color: #4CAF50;
+    color: white;
+    border: none;
+    border-radius: 5px;
+    font-size: 16px;
+    cursor: pointer;
+}
+
+.daftar-member button:hover {
+    background-color: #45a049;
 }
 footer {
     background-color: #005099;
